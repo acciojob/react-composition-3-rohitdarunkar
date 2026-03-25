@@ -1,1 +1,29 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+}
 
+.tooltiptext {
+  visibility: visible;
+  background-color: red;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  white-space: nowrap;
+}
+
+.App {
+  padding: 40px;
+}
+
+h2, p {
+  margin: 40px 0;
+}
