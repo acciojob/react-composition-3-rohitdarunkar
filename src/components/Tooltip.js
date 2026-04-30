@@ -6,7 +6,9 @@ const Tooltip = ({ text, children }) => {
     children: (
       <>
         {children.props.children}
-        <div className="tooltiptext">{text}</div>
+        <div>
+          <div className="tooltiptext">{text}</div>
+        </div>
       </>
     ),
   });
